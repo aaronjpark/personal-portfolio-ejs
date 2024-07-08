@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Acorn';
+  src: url('./Assets/Fonts/acorn.woff') format('woff');
+}
+
+
+body {
+  font-family: "Cabin", sans-serif;
+  /*font-family: "Acorn", Arial, sans-serif;*/
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 1em !important;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 9em !important;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.nav-item {
+  color: black !important;
+}
+
+.nav-item:hover {
+  border-radius: 100px !important;
+}
+
+
+.active {
+  border-radius: 100px !important;
+  background: black !important;
+}
+
+.feature-icon-small {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+
+
+h2 {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 3em !important;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+
+#profile-image {
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  margin-top: -30px;
+  transition-behavior: lazy;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  width: 340.796875px;
+}
+
+
+.gradient-background {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90%);
+  background-image: linear-gradient(83.2deg, rgba(150, 93, 233, 1) 10.8%, rgba(99, 88, 238, 1) 94.3%);
+  background-image: linear-gradient(to left, rgba(15, 2, 2, 1) 11.2%, rgba(36, 163, 190, 1) 91.1%);
+  background: #448C11;
+  background: linear-gradient(135deg, #448C11, #657500);
+
+
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
