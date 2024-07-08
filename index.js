@@ -3,6 +3,7 @@ import { dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
+
 const app = express();
 const port = 3000;
 
@@ -37,6 +38,10 @@ app.get("/experiences", (req, res) => {
 
 app.get("/contact", (req, res) => {
     res.render("contact.ejs");
+})
+
+app.post("/submit", (req, res) => {
+    console.log("yay");
 })
 
 app.listen(port, () => {
