@@ -48,10 +48,20 @@ h1 {
   color: black !important;
 }
 
+.sticky-element {
+  position: sticky;
+}
+
 .nav-item:hover {
   border-radius: 100px !important;
 }
 
+a:hover {
+  background-color: black;
+  /* set text  color to white */
+  color: white !important;
+  border-radius: 100px !important;
+}
 
 .active {
   border-radius: 100px !important;
