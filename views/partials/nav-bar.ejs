@@ -1,25 +1,44 @@
 <!--Navigation Bar-->
 <section id="navigation-bar">
-  <div class="container">
-    <header class="d-flex justify-content-center py-3">
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a href="/" class="nav-link <% if (activePage === 'home') { %>active<% } %>" aria-current="page">Me</a>
-        </li>
-        <li class="nav-item">
-          <a href="/expertise" class="nav-link <% if (activePage === 'expertise') { %>active<% } %>">Expertise</a>
-        </li>
-        <li class="nav-item">
-          <a href="/projects" class="nav-link <% if (activePage === 'projects') { %>active<% } %>">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a href="/experiences" class="nav-link <% if (activePage === 'experiences') { %>active<% } %>">Experiences</a>
-        </li>
-        <li class="nav-item">
-          <a href="/contact" class="nav-link <% if (activePage === 'contact') { %>active<% } %>">Contact</a>
-        </li>
-      </ul>
-    </header>
-  </div>
+  <header>
+    <ul>
+      <li class="nav-item">
+        <a
+          href="/"
+          class="nav-link <% if (activePage === 'home') { %>active<% } %>"
+          aria-current="page"
+          ><span class="logo">AP</span></a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          href="/expertise"
+          class="nav-link <% if (activePage === 'expertise') { %>active<% } %>"
+          >Expertise</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          href="/projects"
+          class="nav-link <% if (activePage === 'projects') { %>active<% } %>"
+          >Projects</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          href="/experiences"
+          class="nav-link <% if (activePage === 'experiences') { %>active<% } %>"
+          >Experiences</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          href="/contact"
+          class="nav-link <% if (activePage === 'contact') { %>active<% } %>"
+          >Contact</a
+        >
+      </li>
+    </ul>
+  </header>
 </section>
 <!--End of Navigation Bar-->
