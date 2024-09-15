@@ -18,7 +18,6 @@ app.use(express.urlencoded({ extended: true }));
 // static files
 app.use(express.static("public"));
 
-
 // routes
 app.get('/', (req, res) => {
     res.render('index', { activePage: 'home' });
