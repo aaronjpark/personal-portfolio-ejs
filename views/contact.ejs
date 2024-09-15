@@ -1,0 +1,36 @@
+<%- include("partials/header.ejs") %>
+<%- include("partials/nav-bar.ejs") %>
+
+<!--Contact Form-->
+<div class="container">
+  <div class="px-4 py-1 my-3 text-center">
+  <h1 class="display-5 fw-bold text-body-emphasis title">Let's Connect!</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">Open for select freelance opportunities! Have an exciting project you'd like assistance with?</p>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Email me</button>
+      <a href="../public/assets/documents/Resume_AaronPark.pdf" class="btn btn-outline-secondary btn-lg px-4">View My Resume</a>
+      <button type="button" class="btn btn-outline-secondary btn-lg px-4">Download my resume</button>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+    <div class="row py-5">
+      <div class="col-md-5mb-3">
+        <form>
+          <h3><strong>Get in Touch</strong></h3>
+          <p>If you have any questions or need help, please fill out the form below. I will do my best to get back to you as soon as I can!</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+</div>
+<!--End of Contact Form-->
+
+<%- include("partials/footer.ejs") %>
+

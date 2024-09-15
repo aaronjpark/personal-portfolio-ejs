@@ -1,0 +1,40 @@
+{
+  "name": "personal-portfolio-website",
+  "version": "1.0.0",
+  "description": "Aaron J Park's Personal Portfolio Website",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronjpark/portfolio-website.git"
+  },
+  "keywords": [
+    "Aaron",
+    "Park",
+    "Aaron",
+    "Park",
+    "UT",
+    "Austin",
+    "Austin",
+    "Tech",
+    "Software",
+    "IT",
+    "Front-End",
+    "Back-End",
+    "Full-Stack",
+    "Job"
+  ],
+  "author": "Aaron J Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronjpark/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/aaronjpark/portfolio-website#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
